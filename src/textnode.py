@@ -7,4 +7,5 @@ class TextNode:
                (other_node.text.lower(), other_node.text_type, url))
 
     def __repr__(self):
-        return str()
+        return f("{self.text} {self.text_type} {url}")
+    
